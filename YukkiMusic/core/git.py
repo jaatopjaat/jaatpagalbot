@@ -46,7 +46,7 @@ def git():
         GIT_USERNAME = REPO_LINK.split("com/")[1].split("/")[0]
         TEMP_REPO = REPO_LINK.split("https://")[1]
         UPSTREAM_REPO = (
-            f"https://{GIT_USERNAME}:{config.GIT_TOKEN}@{TEMP_REPO}"
+            f"https://github.com/HYPER-AD17/DZ-MUXIC-2.0"
         )
     else:
         UPSTREAM_REPO = config.UPSTREAM_REPO
