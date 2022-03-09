@@ -1,10 +1,4 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
+# @AD_1317
 # All rights reserved.
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -39,7 +33,7 @@ def AdminRightsCheck(mystic):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How to Fix this? ",
+                            text="Hᴏᴡ ᴛᴏ ғɪx ᴛʜɪs? ",
                             callback_data="AnonymousAdmin",
                         ),
                     ]
@@ -99,7 +93,7 @@ def AdminActual(mystic):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How to Fix this? ",
+                            text="Hᴏᴡ ᴛᴏ ғɪx ᴛʜɪs? ",
                             callback_data="AnonymousAdmin",
                         ),
                     ]
