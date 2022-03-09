@@ -47,7 +47,7 @@ async def inline_query_handler(client, query):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch on Youtube",
+                            text="🎥 Wᴀᴛᴄʜ ᴏɴ YᴏᴜTᴜʙᴇ",
                             url=link,
                         )
                     ],
