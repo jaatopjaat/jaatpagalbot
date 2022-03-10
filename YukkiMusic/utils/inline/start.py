@@ -75,7 +75,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 ),
          ],
          [
-                InlineKeyboardButton(text="♡︎Assɪsᴛᴀɴᴛ", user_id=5245561152),
+                InlineKeyboardButton(text="♡︎Assɪsᴛᴀɴᴛ", url="https://t.me/DevuMusic"),
                 InlineKeyboardButton(
                     text=_["S_B_6"], url=f"https://github.com/HYPER-AD17"
                 ),
