@@ -22,7 +22,7 @@ from YukkiMusic.utils.database import (add_served_chat,
 from YukkiMusic.utils.decorators.language import language
 from YukkiMusic.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
-from telegram import ParseMode
+
 
 @app.on_message(
     filters.command(get_command("START_COMMAND"))
@@ -185,13 +185,13 @@ async def start_comm(client, message: Message, _):
                 await message.reply_text(
                     _["start_2"].format(config.MUSIC_BOT_NAME),
                     reply_markup=InlineKeyboardMarkup(out),
-                    parse_mode=ParseMode.HTML,
+                    linkpreview=False,
                 )
         else:
             await message.reply_text(
                 _["start_2"].format(config.MUSIC_BOT_NAME),
                 reply_markup=InlineKeyboardMarkup(out),
-                parse_mode=ParseMode.HTML,
+                linkpreview=False,
             )
         if await is_on_off(config.LOG):
             sender_id = message.from_user.id
