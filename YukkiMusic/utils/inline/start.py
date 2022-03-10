@@ -87,7 +87,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 ),
          ],              
     ]
-  """      
+
+
+
+'''      
     if GITHUB_REPO and OWNER:
         buttons.append(
             [
@@ -118,6 +121,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG")]
     )
     return buttons
-"""
+'''
 
 #HYPER BOLTE BIDU 
