@@ -10,6 +10,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 
+
 def track_markup(_, videoid, user_id, channel):
     buttons = [
         [
@@ -20,6 +21,16 @@ def track_markup(_, videoid, user_id, channel):
             InlineKeyboardButton(
                 text=_["P_B_2"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"{H_C_1}",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"{H_C_2}",
             ),
         ],
         [
@@ -45,6 +56,16 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"{H_C_1}",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"{H_C_2}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
         ],
@@ -54,6 +75,16 @@ def stream_markup(_, videoid):
 
 def telegram_markup(_):
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"{H_C_1}",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"{H_C_2}",
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
@@ -80,6 +111,16 @@ def playlist_markup(_, videoid, user_id, ptype, channel):
         ],
         [
             InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"{H_C_1}",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"{H_C_2}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
@@ -90,6 +131,16 @@ def playlist_markup(_, videoid, user_id, ptype, channel):
 
 def livestream_markup(_, videoid, user_id, mode, channel):
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"{H_C_1}",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"{H_C_2}",
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text=_["P_B_3"],
