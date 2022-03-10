@@ -1,10 +1,4 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
+
 # All rights reserved.
 
 
@@ -42,9 +36,9 @@ UNAUTH_COMMAND : ["unauth", "अनधिकृत"]
 AUTHUSERS_COMMAND : ["authusers", "लेखक"]
 PAUSE_COMMAND : ["pause", "ठहराव", "cpause"]
 RESUME_COMMAND : ["resume", "फिर-शुरू-करना", "cresume"]
-MUTE_COMMAND : ["mute", "मूक", "cmute"]
-UNMUTE_COMMAND : ["unmute", "अनम्यूट", "cunmute"]
-STOP_COMMAND : ["stop", "end", "विराम", "समाप्त", "cstop", "cend"]
+MUTE_COMMAND : ["pause", "मूक", "cpause"]
+UNMUTE_COMMAND : ["resume", "अनम्यूट", "cresume"]
+STOP_COMMAND : ["end", "विराम", "समाप्त", "cend"]
 SKIP_COMMAND : ["skip", "छोड़ें", "cskip"]
 SHUFFLE_COMMAND : ["shuffle", "मिश्रण", "cshuffle"]
 LOOP_COMMAND : ["loop", "लूप", "cloop"]
