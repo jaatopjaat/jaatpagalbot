@@ -21,18 +21,6 @@ answer.extend(
             input_message_content=InputTextMessageContent("/resume"),
         ),
         InlineQueryResultArticle(
-            title="Mᴜᴛᴇ Sᴛʀᴇᴀᴍ",
-            description=f"ᴍᴜᴛᴇ ᴛʜᴇ ᴏɴɢᴏɪɴɢ ᴘʟᴀʏᴏᴜᴛ ᴏɴ ɢʀᴏᴜᴘ ᴄᴀʟʟ.",
-            thumb_url="https://telegra.ph/file/66516f2976cb6d87e20f9.png",
-            input_message_content=InputTextMessageContent("/mute"),
-        ),
-        InlineQueryResultArticle(
-            title="Uɴᴍᴜᴛᴇ Sᴛʀᴇᴀᴍ",
-            description=f"ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ᴏɴɢᴏɪɴɢ ᴘʟᴀʏᴏᴜᴛ ᴏɴ ɢʀᴏᴜᴘ ᴄᴀʟʟ.",
-            thumb_url="https://telegra.ph/file/3078794f9341ffd582e18.png",
-            input_message_content=InputTextMessageContent("/unmute"),
-        ),
-        InlineQueryResultArticle(
             title="Sᴋɪᴘ Sᴛʀᴇᴀᴍ",
             description=f"sᴋɪᴘ ᴛᴏ ɴᴇxᴛ ᴛʀᴀᴄᴋ. | ꜰᴏʀ sᴘᴇᴄɪꜰɪᴄ ᴛʀᴀᴄᴋ ɴᴜᴍʙᴇʀ: /skip [ɴᴜᴍʙᴇʀ] ",
             thumb_url="https://telegra.ph/file/78189a482f76fdc3f8185.jpg",
@@ -58,3 +46,19 @@ answer.extend(
         ),
     ]
 )
+
+"""
+
+InlineQueryResultArticle(
+            title="Mᴜᴛᴇ Sᴛʀᴇᴀᴍ",
+            description=f"ᴍᴜᴛᴇ ᴛʜᴇ ᴏɴɢᴏɪɴɢ ᴘʟᴀʏᴏᴜᴛ ᴏɴ ɢʀᴏᴜᴘ ᴄᴀʟʟ.",
+            thumb_url="https://telegra.ph/file/66516f2976cb6d87e20f9.png",
+            input_message_content=InputTextMessageContent("/mute"),
+        ),
+        InlineQueryResultArticle(
+            title="Uɴᴍᴜᴛᴇ Sᴛʀᴇᴀᴍ",
+            description=f"ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ᴏɴɢᴏɪɴɢ ᴘʟᴀʏᴏᴜᴛ ᴏɴ ɢʀᴏᴜᴘ ᴄᴀʟʟ.",
+            thumb_url="https://telegra.ph/file/3078794f9341ffd582e18.png",
+            input_message_content=InputTextMessageContent("/unmute"),
+        ),
+"""
