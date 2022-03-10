@@ -215,7 +215,6 @@ async def testbot(client, message: Message, _):
         _["start_1"].format(
             message.chat.title, config.MUSIC_BOT_NAME
         ),
-        parse_mode=ParseMode.HTML,
         reply_markup=InlineKeyboardMarkup(out),
     )
 
