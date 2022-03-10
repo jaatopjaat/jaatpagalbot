@@ -3,7 +3,7 @@
 
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
-                            InlineKeyboardMarkup, ParseMode, Message)
+                            InlineKeyboardMarkup, Message)
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
@@ -22,7 +22,7 @@ from YukkiMusic.utils.database import (add_served_chat,
 from YukkiMusic.utils.decorators.language import language
 from YukkiMusic.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
-
+from telegram import ParseMode
 
 @app.on_message(
     filters.command(get_command("START_COMMAND"))
