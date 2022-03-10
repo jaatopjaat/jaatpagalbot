@@ -24,6 +24,9 @@ AUTH_COMMAND = get_command("AUTH_COMMAND")
 UNAUTH_COMMAND = get_command("UNAUTH_COMMAND")
 AUTHUSERS_COMMAND = get_command("AUTHUSERS_COMMAND")
 
+GET_AUTHH = "https://telegra.ph/file/801715ed3ae98b2748b56.png"
+ALREADY_AUTHED = "https://telegra.ph/file/ad45ceb574e9eeb9b99b9.png"
+AUTH_LIST_DD = "https://telegra.ph/file/523821bd6adc83515e5e2.mp4"
 
 @app.on_message(
     filters.command(AUTH_COMMAND)
@@ -60,9 +63,9 @@ async def auth(client, message: Message, _):
                 if user.id not in get:
                     get.append(user.id)
             await save_authuser(message.chat.id, token, assis)
-            return await message.reply_text(_["auth_2"])
+            return await message.reply_photo(GET_AUTHH, caption=_["auth_2"])
         else:
-            await message.reply_text(_["auth_3"])
+            await message.reply_photo(ALREADY_AUTHED, caption=_["auth_3"])
         return
     from_user_id = message.from_user.id
     user_id = message.reply_to_message.from_user.id
@@ -87,9 +90,9 @@ async def auth(client, message: Message, _):
             if user_id not in get:
                 get.append(user_id)
         await save_authuser(message.chat.id, token, assis)
-        return await message.reply_text(_["auth_2"])
+        return await message.reply_photo(GET_AUTHH, caption=_["auth_2"])
     else:
-        await message.reply_text(_["auth_3"])
+        await message.reply_photo(ALREADY_AUTHED, caption=_["auth_3"])
 
 
 @app.on_message(
@@ -159,4 +162,4 @@ async def authusers(client, message: Message, _):
             text += f"{j}➤ {user}[`{user_id}`]\n"
             text += f"   {_['auth_8']} {admin_name}[`{admin_id}`]\n\n"
         await mystic.delete()
-        await message.reply_text(text)
+        await message.reply_video(AUTH_LIST_DD, caption=text)
