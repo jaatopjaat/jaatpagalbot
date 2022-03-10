@@ -11,7 +11,7 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping", "पिंग"]
+PING_COMMAND : ["test", "पिंग"]
 START_COMMAND : ["start", "स्टार्ट"]
 HELP_COMMAND : ["help", "हेल्प"]
 SETTINGS_COMMAND : ["settings", "setting", "सेटिंग्स", "सेटिंग"]
@@ -53,9 +53,9 @@ LOOP_COMMAND : ["loop", "लूप", "cloop"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo", "अड़सुड़ो"]
-DELSUDO_COMMAND : ["delsudo", "देलसूड़ो"]
-SUDOUSERS_COMMAND : ["sudolist", "सुडोलिस्ट"]
+ADDSUDO_COMMAND : ["sudoadd", "as", "अड़सुड़ो"]
+DELSUDO_COMMAND : ["rmlsudo", "देलसूड़ो"]
+SUDOUSERS_COMMAND : ["unkils", "sudos", "सुडोलिस्ट"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast", "ब्रॉडकास्ट"]
@@ -81,8 +81,8 @@ SETVAR_COMMAND : ["set_var", "सेट_वर"]
 USAGE_COMMAND : ["usage", "यूसेज"]
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update", "अपडेट"]
-RESTART_COMMAND : ["restart", "रीस्टार्ट"]
+UPDATE_COMMAND : ["rebuild", "अपडेट"]
+RESTART_COMMAND : ["reboot", "रीस्टार्ट"]
 
 #Private Bot Mode
 AUTHORIZE_COMMAND : ["allow", "a", "ऑथॉरिजे"]
