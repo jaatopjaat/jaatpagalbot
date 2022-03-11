@@ -30,7 +30,7 @@ answer.extend(
             title="Eɴᴅ Sᴛʀᴇᴀᴍ",
             description="sᴛᴏᴘ ᴛʜᴇ ᴏɴɢᴏɪɴɢ ᴘʟᴀʏᴏᴜᴛ ᴏɴ ɢʀᴏᴜᴘ ᴄᴀʟʟ.",
             thumb_url="https://telegra.ph/file/eb33b1f0daaecb911d013.jpg",
-            input_message_content=InputTextMessageContent("/stop"),
+            input_message_content=InputTextMessageContent("/end"),
         ),
         InlineQueryResultArticle(
             title="Sʜᴜғғʟᴇ Sᴛʀᴇᴀᴍ",
