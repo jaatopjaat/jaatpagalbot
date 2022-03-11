@@ -26,11 +26,11 @@ def track_markup(_, videoid, user_id, channel):
         [
             InlineKeyboardButton(
                 text=_["S_B_4"],
-                url=f"{H_C_1}",
+                url=f"https://t.me/SILENT_DEVS",
             ),
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{H_C_2}",
+                url=f"https://t.me/SILENT_BOTS",
             ),
         ],
         [
@@ -57,11 +57,11 @@ def stream_markup(_, videoid):
         [
             InlineKeyboardButton(
                 text=_["S_B_4"],
-                url=f"{H_C_1}",
+                url=f"https://t.me/SILENT_DEVS",
             ),
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{H_C_2}",
+                url=f"https://t.me/SILENT_BOTS",
             ),
         ],
         [
@@ -78,11 +78,11 @@ def telegram_markup(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_4"],
-                url=f"{H_C_1}",
+                url=f"https://t.me/SILENT_DEVS",
             ),
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{H_C_2}",
+                url=f"https://t.me/SILENT_BOTS",
             ),
         ],
         [
@@ -112,11 +112,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel):
         [
             InlineKeyboardButton(
                 text=_["S_B_4"],
-                url=f"{H_C_1}",
+                url=f"https://t.me/SILENT_DEVS",
             ),
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{H_C_2}",
+                url=f"https://t.me/SILENT_BOTS",
             ),
         ],
         [
@@ -134,11 +134,11 @@ def livestream_markup(_, videoid, user_id, mode, channel):
         [
             InlineKeyboardButton(
                 text=_["S_B_4"],
-                url=f"{H_C_1}",
+                url=f"https://t.me/SILENT_DEVS",
             ),
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{H_C_2}",
+                url=f"https://t.me/SILENT_BOTS",
             ),
         ],
         [
