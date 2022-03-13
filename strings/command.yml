@@ -14,7 +14,7 @@ STATS_COMMAND : ["gstats", "आँकड़े"]
 LANGUAGE_COMMAND : ["lang", "language"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "ytt" "vplay", "cplay", "प्ले", "वीप्ले"]
+PLAY_COMMAND : ["play", "ytt", "vplay", "cplay", "प्ले", "वीप्ले"]
 PLAYMODE_COMMAND : ["playmode", "खेल विधा"]
 CHANNELPLAY_COMMAND : ["channelplay", "चैनलप्ले"]
 STREAM_COMMAND : ["stream", "धारा", "cstream"]
