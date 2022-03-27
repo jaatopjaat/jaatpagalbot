@@ -71,7 +71,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     text=_["S_B_4"], url=f"https://t.me/SILENT_DEVS"
                 ),
                 InlineKeyboardButton(
-                    text="♡︎Assɪsᴛᴀɴᴛ", url="https://t.me/DevuMusic"
+                    text="♡︎Assɪsᴛᴀɴᴛ", url="tg://user?id=5185393543"
                 ),
          ],
          [
