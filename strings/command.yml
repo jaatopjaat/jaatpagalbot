@@ -86,16 +86,19 @@ AUTHORIZED_COMMAND : ["achats", "ऑथॉरिज़ेड"]
 #Block Users Command
 BLOCK_COMMAND : ["block", "ब्लॉक"]
 UNBLOCK_COMMAND : ["unblock", "ुंब्लॉकेड"]
-BLOCKED_COMMAND : ["blockedusers", "ब्लॉकेडूसेर्स"]
+BLOCKED_COMMAND : ["blockedusers
+
+
+", "ब्लॉकेडूसेर्स"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["testspeed", "speed", स्पीडटेस्ट]
+SPEEDTEST_COMMAND : ["speedtest", "speed", स्पीडटेस्ट]
 
 #Voice chat commands
 ACTIVEVC_COMMAND : ["activevoice", "एक्टीवेवोईस"]
 ACTIVEVIDEO_COMMAND : ["activevideo", "एक्टीवेविडो"]
 
 #Gban Commands
-GBAN_COMMAND : ["gaction"]
-UNGBAN_COMMAND : ["ungaction"]
-GBANNED_COMMAND : ["gbannedusers"]
+GBAN_COMMAND : ["gban"]
+UNGBAN_COMMAND : ["ungban"]
+GBANNED_COMMAND : ["gbanusers"]
