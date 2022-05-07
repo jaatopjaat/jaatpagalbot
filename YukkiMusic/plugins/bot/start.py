@@ -185,13 +185,13 @@ async def start_comm(client, message: Message, _):
                 await message.reply_text(
                     _["start_2"].format(config.MUSIC_BOT_NAME),
                     reply_markup=InlineKeyboardMarkup(out),
-                    linkpreview=False,
+                    disable_web_page_preview=True,
                 )
         else:
             await message.reply_text(
                 _["start_2"].format(config.MUSIC_BOT_NAME),
                 reply_markup=InlineKeyboardMarkup(out),
-                linkpreview=False,
+                disable_web_page_preview=True,
             )
         if await is_on_off(config.LOG):
             sender_id = message.from_user.id
