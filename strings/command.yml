@@ -5,7 +5,7 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["test", "पिंग"]
+PING_COMMAND : ["ping", "पिंग"]
 START_COMMAND : ["start", "स्टार्ट"]
 HELP_COMMAND : ["help", "हेल्प"]
 SETTINGS_COMMAND : ["settings", "setting", "सेटिंग्स", "सेटिंग"]
@@ -86,19 +86,16 @@ AUTHORIZED_COMMAND : ["achats", "ऑथॉरिज़ेड"]
 #Block Users Command
 BLOCK_COMMAND : ["block", "ब्लॉक"]
 UNBLOCK_COMMAND : ["unblock", "ुंब्लॉकेड"]
-BLOCKED_COMMAND : ["blockedusers
-
-
-", "ब्लॉकेडूसेर्स"]
+BLOCKED_COMMAND : ["blockedusers", "ब्लॉकेडूसेर्स"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest", "speed", स्पीडटेस्ट]
+SPEEDTEST_COMMAND : ["testspeed", "speed", स्पीडटेस्ट]
 
 #Voice chat commands
 ACTIVEVC_COMMAND : ["activevoice", "एक्टीवेवोईस"]
 ACTIVEVIDEO_COMMAND : ["activevideo", "एक्टीवेविडो"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban"]
-UNGBAN_COMMAND : ["ungban"]
-GBANNED_COMMAND : ["gbanusers"]
+GBAN_COMMAND : ["gaction"]
+UNGBAN_COMMAND : ["ungaction"]
+GBANNED_COMMAND : ["gbannedusers"]
