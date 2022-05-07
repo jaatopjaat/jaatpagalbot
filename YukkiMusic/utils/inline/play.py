@@ -25,13 +25,19 @@ def track_markup(_, videoid, user_id, channel):
         ],
         [
             InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"https://t.me/UNSTOPPABLE_BOTS",
+            ),
+            InlineKeyboardButton(
                 text=_["S_B_3"],
                 url=f"https://t.me/S_UNSTOPPABLE",
             ),
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
-            ),
+            )
         ],
     ]
     return buttons
@@ -48,12 +54,37 @@ def stream_markup(_, videoid):
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
         ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"https://t.me/UNSTOPPABLE_BOTS",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"https://t.me/S_UNSTOPPABLE",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+            )
+        ],
     ]
     return buttons
 
 
 def telegram_markup(_):
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"https://t.me/UNSTOPPABLE_BOTS",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"https://t.me/S_UNSTOPPABLE",
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
@@ -80,9 +111,15 @@ def playlist_markup(_, videoid, user_id, ptype, channel):
         ],
         [
             InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"https://t.me/UNSTOPPABLE_BOTS",
+            ),
+            InlineKeyboardButton(
                 text=_["S_B_3"],
                 url=f"https://t.me/S_UNSTOPPABLE",
             ),
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
@@ -94,6 +131,16 @@ def playlist_markup(_, videoid, user_id, ptype, channel):
 
 def livestream_markup(_, videoid, user_id, mode, channel):
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_4"],
+                url=f"https://t.me/UNSTOPPABLE_BOTS",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"https://t.me/S_UNSTOPPABLE",
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text=_["P_B_3"],
