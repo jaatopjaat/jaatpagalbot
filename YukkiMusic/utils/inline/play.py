@@ -54,7 +54,7 @@ def stream_markup(_, videoid):
                 url=f"https://t.me/S_UNSTOPPABLE",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close",
+                text=_["CLOSEMENU_BUTTON"], callback_data="close",)
         ],
     ]
     return buttons
