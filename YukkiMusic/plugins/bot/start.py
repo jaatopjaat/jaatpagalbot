@@ -211,7 +211,7 @@ async def start_comm(client, message: Message, _):
 @language
 async def testbot(client, message: Message, _):
     out = start_pannel(_)
-    return await message.reply_text(
+    return await message.reply_text(f"ʜᴇʏ [ᴅᴀʀʟɪɴɢ🥀](tg://user?id={message.from_user.id})\n" +
         _["start_1"].format(
             message.chat.title, config.MUSIC_BOT_NAME
         ),
