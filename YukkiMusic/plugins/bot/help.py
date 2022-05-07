@@ -80,7 +80,7 @@ async def helper_private(
 @language
 async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
-    await message.reply_text(
+    await message.reply_text(f"ʜᴇʏ, {message.from_user.mention}" +
         _["help_2"], reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
