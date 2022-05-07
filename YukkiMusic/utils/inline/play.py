@@ -48,15 +48,6 @@ def stream_markup(_, videoid):
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
         ],
-        [
-            InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"https://t.me/S_UNSTOPPABLE",
-            ),
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
-        ],
     ]
     return buttons
 
