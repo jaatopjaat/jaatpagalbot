@@ -31,10 +31,10 @@ def start_pannel(_):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text=_["S_B_4"], url=f"https://t.me/SILENT_DEVS"
+                    text=_["S_B_4"], url=f"https://t.me/UNSTOPPABLE_BOTS"
                 ),
                 InlineKeyboardButton(
-                    text=_["S_B_3"], url=f"https://t.me/SILENT_BOTS"
+                    text=_["S_B_3"], url=f"https://t.me/S_UNSTOPPABLE"
                 ),
             ]
         )
