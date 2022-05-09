@@ -42,6 +42,7 @@ STOP_COMMAND : ["end", "विराम", "समाप्त", "cend"]
 SKIP_COMMAND : ["skip", "छोड़ें", "cskip"]
 SHUFFLE_COMMAND : ["shuffle", "मिश्रण", "cshuffle"]
 LOOP_COMMAND : ["loop", "लूप", "cloop"]
+SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
 
 
 # Sudo Users Commaands
@@ -86,16 +87,16 @@ AUTHORIZED_COMMAND : ["achats", "ऑथॉरिज़ेड"]
 #Block Users Command
 BLOCK_COMMAND : ["block", "ब्लॉक"]
 UNBLOCK_COMMAND : ["unblock", "ुंब्लॉकेड"]
-BLOCKED_COMMAND : ["blockedusers", "ब्लॉकेडूसेर्स"]
+BLOCKED_COMMAND : ["blockeduser", "ब्लॉकेडूसेर्स"]
 
 #sPEEDTEST
 SPEEDTEST_COMMAND : ["testspeed", "speed", स्पीडटेस्ट]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice", "एक्टीवेवोईस"]
-ACTIVEVIDEO_COMMAND : ["activevideo", "एक्टीवेविडो"]
+ACTIVEVC_COMMAND : ["activevc", "एक्टीवेवोईस"]
+ACTIVEVIDEO_COMMAND : ["activevd", "एक्टीवेविडो"]
 
 #Gban Commands
-GBAN_COMMAND : ["gaction"]
-UNGBAN_COMMAND : ["ungaction"]
-GBANNED_COMMAND : ["gbannedusers"]
+GBAN_COMMAND : ["gban"]
+UNGBAN_COMMAND : ["ungban"]
+GBANNED_COMMAND : ["gbanlist"]
