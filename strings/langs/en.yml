@@ -63,6 +63,13 @@ admin_24 : "ᴜsᴀɢᴇ:\n/loop [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] ᴏʀ [ɴᴜ
 admin_25 : "ʟᴏᴏᴘ ᴇɴᴀʙʟᴇᴅ ʙʏ {0} ꜰᴏʀ {1} ᴛɪᴍᴇs. ʙᴏᴛ ᴡɪʟʟ ɴᴏᴡ ʀᴇᴘᴇᴀᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ꜰᴏʀ {1} ᴛɪᴍᴇs"
 admin_26 : "ᴘʟᴇᴀsᴇ ᴜsᴇ ɴᴜᴍʙᴇʀs ʙᴇᴛᴡᴇᴇɴ 1-10 ꜰᴏʀ ʟᴏᴏᴘ ᴘʟᴀʏ"
 admin_27 : "ʜᴜʜ, ʟᴏᴏᴘ ᴘʟᴀʏ ʜᴀs ʙᴇᴇɴ ᴅɪsᴀʙʟᴇᴅ"
+admin_28 : "**Usage:**\n/seek or /seekback [Duration in seconds]"
+admin_29 : "Please use numeric duration seconds like 10-20-30 second for seeking"
+admin_30 : "Sorry but you can't seek the currently playing stream. It can only be skipped or stopped."
+admin_31 : "Bot is not able to seek due to high duration given. You need to seek to a lower duration and remember that a time of 10 seconds is left after seeking.\n\nCurrently played** {0}** mins out of **{1}** mins"
+admin_32 : "Please Wait... Seeking ongoing stream."
+admin_33 : "Successfully Seeked Stream to {0} Mins"
+admin_34 : "Failed to seek the current stream."
 
 # ʙᴏᴛ 
 
