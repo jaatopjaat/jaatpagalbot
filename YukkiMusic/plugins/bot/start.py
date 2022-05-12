@@ -176,19 +176,19 @@ async def start_comm(client, message: Message, _):
             try:
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
-                    caption=_["start_2"].format(
+                    caption="Hᴇʏ [ʙᴀʙʏ](tg://user?id={message.from_user.id})," + _["start_2"].format(
                         config.MUSIC_BOT_NAME
                     ),
                     reply_markup=InlineKeyboardMarkup(out),
                 )
             except:
-                await message.reply_text(
+                await message.reply_text("Hᴇʏ [ʙᴀʙʏ](tg://user?id={message.from_user.id})," + 
                     _["start_2"].format(config.MUSIC_BOT_NAME),
                     reply_markup=InlineKeyboardMarkup(out),
                     disable_web_page_preview=True,
                 )
         else:
-            await message.reply_text(
+            await message.reply_text("Hᴇʏ [ʙᴀʙʏ](tg://user?id={message.from_user.id})," + 
                 _["start_2"].format(config.MUSIC_BOT_NAME),
                 reply_markup=InlineKeyboardMarkup(out),
                 disable_web_page_preview=True,
