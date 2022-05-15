@@ -97,7 +97,7 @@ async def gen_thumb(videoid):
             "QueenLisa Playing...",
             fill="white",
             stroke_width=2,
-            stroke_fill="white",
+            stroke_fill="red",
             font=font2,
         )
         for line in para:
